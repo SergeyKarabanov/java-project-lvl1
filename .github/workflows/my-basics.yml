@@ -13,6 +13,6 @@ jobs:
     
     steps: 
     - name: make_build
-      run: make build 
+      run: ./gradlew clean build
      
      
