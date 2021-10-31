@@ -4,14 +4,13 @@
 
 name: My-GithubActions
 
-on:
-  push:
-    branches: 
-    - master
+on: [push]
     
 jobs:
   make_build:
+  
     runs-on: ubuntu-latest
+    
     steps: 
     - name: make_build
       run: make build 
