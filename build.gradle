@@ -5,7 +5,7 @@ plugins {
 
 }
 application {
-    mainClass = 'hexlet.code.App'
+    mainClass = 'hexlet.code.java-project-lvl1'
 }
 compileJava {
     options.release = 16
