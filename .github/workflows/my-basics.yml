@@ -14,6 +14,6 @@ jobs:
     steps: 
     
     - name: make_build
-      run: gradle run
+      run: echo "Hello"
      
      
