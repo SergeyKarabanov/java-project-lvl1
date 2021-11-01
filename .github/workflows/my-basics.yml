@@ -1,0 +1,19 @@
+#-----------------------------------------
+# SergeyKarabanov java-project-lvl1
+#-----------------------------------------
+
+name: My-GithubActions
+
+on: [push]
+    
+jobs:
+  make_build:
+  
+    runs-on: ubuntu-latest
+    
+    steps: 
+    
+    - name: make_build
+      run: gradle run
+     
+     
