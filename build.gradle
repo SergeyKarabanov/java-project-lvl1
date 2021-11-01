@@ -20,7 +20,8 @@ run {
     standardInput = System.in
 }
 group = 'hexlet.code'
-version = '1.0-SNAPSHOT'test {
+version = '1.0-SNAPSHOT'
+test {
   useJUnitPlatform()
 }
 dependencies {
