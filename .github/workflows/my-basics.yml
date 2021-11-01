@@ -14,7 +14,7 @@ jobs:
     steps: 
     
     - name: make_build
-      run: 	./gradlew run
+      run: 	make build
 
      
      
