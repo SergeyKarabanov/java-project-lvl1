@@ -1,3 +1,5 @@
+.DEFAULT_GOAL := build-run
+
 setup:
 	gradle wrapper --gradle-version 7.2
 clean:
@@ -17,3 +19,4 @@ lint:
 check-updates:
 	./gradlew dependencyUpdates
 build-run: build run
+.PHONY: build
