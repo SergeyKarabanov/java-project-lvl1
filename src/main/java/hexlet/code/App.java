@@ -17,13 +17,13 @@ public class App {
         int number = scan.nextInt();
         System.out.println("Your choice: " + number);
         if (number == GAME_NUMBER1) {
-            Games.greet();
+            Engine.greet();
         }
         if (number == GAME_NUMBER2) {
-            Games.even();
+            Engine.even();
         }
         if (number == GAME_NUMBER3) {
-            Games.calc();
+            Engine.calc();
         }
     }
 }
