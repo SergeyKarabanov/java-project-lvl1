@@ -3,7 +3,7 @@ package hexlet.code.games;
 import java.util.Scanner;
 
 public class GameFour {
-    static final int MIN_RANDOM = 0;
+    static final int MIN_RANDOM = 1;
     static final int MAX_RANDOM = 100;
 
     public static int findingGCD(int a, int b) {
