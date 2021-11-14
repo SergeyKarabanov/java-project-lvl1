@@ -41,4 +41,3 @@ public class GameFour {
         return counter;
     }
 }
-

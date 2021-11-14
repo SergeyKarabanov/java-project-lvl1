@@ -5,6 +5,7 @@ import hexlet.code.games.GameFour;
 import hexlet.code.games.GameOne;
 import hexlet.code.games.GameThree;
 import hexlet.code.games.GameTwo;
+import hexlet.code.games.GameFive;
 
 public class Engine {
 
@@ -64,7 +65,21 @@ public class Engine {
         }
     }
 
-    public static void main(String[] args) {
-
+    public static void progression() {
+        String name = GameOne.nameigrok();
+        int result = GameFive.questionsForProgression();
+        if (result == 1) {
+            int result2 = GameFive.questionsForProgression();
+            if (result2 == 1) {
+                int result3 = GameFive.questionsForProgression();
+                if (result3 == 1) {
+                    System.out.println("Congratulations," + name);
+                }
+            }
+        }
+        if (result == 0) {
+            System.out.println("Let's try again," + name);
+        }
     }
 }
+
