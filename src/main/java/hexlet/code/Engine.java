@@ -6,6 +6,7 @@ import hexlet.code.games.GameOne;
 import hexlet.code.games.GameThree;
 import hexlet.code.games.GameTwo;
 import hexlet.code.games.GameFive;
+import hexlet.code.games.GameSix;
 
 public class Engine {
 
@@ -72,6 +73,23 @@ public class Engine {
             int result2 = GameFive.questionsForProgression();
             if (result2 == 1) {
                 int result3 = GameFive.questionsForProgression();
+                if (result3 == 1) {
+                    System.out.println("Congratulations," + name);
+                }
+            }
+        }
+        if (result == 0) {
+            System.out.println("Let's try again," + name);
+        }
+    }
+
+    public static void prime() {
+        String name = GameOne.nameigrok();
+        int result = GameSix.questionsForPrime();
+        if (result == 1) {
+            int result2 = GameSix.questionsForPrime();
+            if (result2 == 1) {
+                int result3 = GameSix.questionsForPrime();
                 if (result3 == 1) {
                     System.out.println("Congratulations," + name);
                 }
