@@ -1,7 +1,7 @@
 #-----------------------------------------
 # SergeyKarabanov java-project-lvl1
 #-----------------------------------------
-name: my-basics
+name: github-Action.yml
 
 on: [push]
 
