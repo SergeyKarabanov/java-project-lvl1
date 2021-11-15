@@ -38,8 +38,8 @@ public class GameFive {
             System.out.println("Correct!");
             counter = 1;
         } else {
-            System.out.println("'" + answer + "'" + " is wrong answer ;(.");
-            System.out.println(";Correct answer was " + "'" + arithmeticProgression[unknownMember] + "'");
+            System.out.print("'" + answer + "'" + " is wrong answer ;(. Correct answer was ");
+            System.out.println("'" + arithmeticProgression[unknownMember] + "'");
         }
         return counter;
     }
