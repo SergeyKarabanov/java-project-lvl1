@@ -23,7 +23,7 @@ public class GameSix {
             result = "no";
         }
         System.out.println("Answer 'yes' if given number is prime. Otherwise answer 'no'.");
-        System.out.println("Question:" + number);
+        System.out.println("Question: " + number);
         Scanner scan = new Scanner(System.in);
         String answer = scan.nextLine();
         System.out.println("Your answer:" + answer);

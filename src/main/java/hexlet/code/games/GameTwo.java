@@ -10,7 +10,7 @@ public class GameTwo {
         int result = 0;
         System.out.println("Answer 'yes' if number even otherwise answer 'no'.");
         int random = (int) (Math.random() * MAX_RANDOM) + MIN_RANDOM;
-        System.out.println("Question:" + random);
+        System.out.println("Question: " + random);
         Scanner scan2 = new Scanner(System.in);
         String answer = scan2.nextLine();
         System.out.println("Your answer:" + answer);
