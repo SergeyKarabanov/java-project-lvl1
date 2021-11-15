@@ -22,12 +22,12 @@ public class Engine {
             if (result2 == 1) {
                 int result3 = GameTwo.questionsForEven();
                 if (result3 == 1) {
-                    System.out.println("Congratulations," + name);
+                    System.out.println("Congratulations, " + name);
                 }
             }
         }
         if (result == 0) {
-            System.out.println("Let's try again," + name);
+            System.out.println("Let's try again, " + name);
         }
 
     }
@@ -40,12 +40,12 @@ public class Engine {
             if (result2 == 1) {
                 int result3 = GameThree.questionForCalc();
                 if (result3 == 1) {
-                    System.out.println("Congratulations," + name);
+                    System.out.println("Congratulations, " + name);
                 }
             }
         }
         if (result == 0) {
-            System.out.println("Let's try again," + name);
+            System.out.println("Let's try again, " + name);
         }
     }
 
@@ -57,12 +57,12 @@ public class Engine {
             if (result2 == 1) {
                 int result3 = GameFour.questionsForGCD();
                 if (result3 == 1) {
-                    System.out.println("Congratulations," + name);
+                    System.out.println("Congratulations, " + name);
                 }
             }
         }
         if (result == 0) {
-            System.out.println("Let's try again," + name);
+            System.out.println("Let's try again, " + name);
         }
     }
 
@@ -74,12 +74,12 @@ public class Engine {
             if (result2 == 1) {
                 int result3 = GameFive.questionsForProgression();
                 if (result3 == 1) {
-                    System.out.println("Congratulations," + name);
+                    System.out.println("Congratulations, " + name);
                 }
             }
         }
         if (result == 0) {
-            System.out.println("Let's try again," + name);
+            System.out.println("Let's try again, " + name);
         }
     }
 
@@ -91,12 +91,12 @@ public class Engine {
             if (result2 == 1) {
                 int result3 = GameSix.questionsForPrime();
                 if (result3 == 1) {
-                    System.out.println("Congratulations," + name);
+                    System.out.println("Congratulations, " + name);
                 }
             }
         }
         if (result == 0) {
-            System.out.println("Let's try again," + name);
+            System.out.println("Let's try again, " + name);
         }
     }
 }
