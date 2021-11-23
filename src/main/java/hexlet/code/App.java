@@ -1,4 +1,9 @@
 package hexlet.code;
+import hexlet.code.games.EvenGame;
+import hexlet.code.games.CalcGame;
+import hexlet.code.games.GCDGame;
+import hexlet.code.games.ProgressionGame;
+import hexlet.code.games.PrimeGame;
 
 import java.util.Scanner;
 
@@ -22,23 +27,27 @@ public class App {
         Scanner scan = new Scanner(System.in);
         int number = scan.nextInt();
         System.out.println("Your choice: " + number);
-        if (number == GAME_NUMBER1) {
-            Engine.greet();
-        }
-        if (number == GAME_NUMBER2) {
-            Engine.even();
-        }
-        if (number == GAME_NUMBER3) {
-            Engine.calc();
-        }
-        if (number == GAME_NUMBER4) {
-            Engine.gCD();
-        }
-        if (number == GAME_NUMBER5) {
-            Engine.progression();
-        }
-        if (number == GAME_NUMBER6) {
-            Engine.prime();
+        switch (number) {
+            case (GAME_NUMBER1):
+                Cli.greeting();
+                break;
+            case (GAME_NUMBER2):
+                EvenGame.questionsForEven();
+                break;
+            case (GAME_NUMBER3):
+                CalcGame.questionForCalc();
+                break;
+            case (GAME_NUMBER4):
+                GCDGame.questionsForGCD();
+                break;
+            case (GAME_NUMBER5):
+                ProgressionGame.questionsForProgression();
+                break;
+            case (GAME_NUMBER6):
+                PrimeGame.questionsForPrime();
+                break;
+            default:
+                break;
         }
     }
 }
