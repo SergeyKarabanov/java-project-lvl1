@@ -8,7 +8,7 @@ public class ProgressionGame {
     static final int MIN_RANDOM1 = 1;
     static final int MAX_RANDOM1 = 25;
     static final int MIN_RANDOM2 = 1;
-    static final int MAX_RANDOM2 = 10;
+    static final int MAX_RANDOM2 = 9;
     static final int PROGRESSION_LENGTH = 10;
     static final int MAX_ROUND_COUNT = 3;
     static final int ARRAY_QUESTIONS_LENGTH = 6;
